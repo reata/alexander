@@ -1,0 +1,1 @@
+SSH keys can be directly copied to another machine. The files needed are listed in current folder.

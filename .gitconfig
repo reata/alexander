@@ -1,0 +1,8 @@
+[core]
+    editor = vim
+    autocrlf = input
+[user]
+    name = ${GIT_NAME}
+    email = ${GIT_EMAIL}
+[push]
+    default = simple

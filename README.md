@@ -3,14 +3,14 @@ Alexander is a HOME directory backup to build portability and avoid device lock-
 
 The backup includes:
 - General software configuration:
-  - Git: .gitconfig
+  - Git: ~/.gitconfig
 - mirror setup for repository of software:
-  - PyPI: .pip
-  - Maven: .m2
-  - sbt: .sbt
+  - PyPI: ~/.pip/
+  - Maven: ~/.m2/
+  - sbt: ~/.sbt/
 - Documentation for sensitive information migration:
-  - GPG: .gnupg
-  - SSH: .ssh
+  - GPG: ~/.gnupg/
+  - SSH: ~/.ssh/
 
 ## Behind the Name
 

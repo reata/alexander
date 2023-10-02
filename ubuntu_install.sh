@@ -46,6 +46,7 @@ sudo apt install -y kubectl
 # install minikube
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 sudo install minikube-linux-amd64 /usr/local/bin/minikube
+rm minikube
 
 # pyenv requirements
 sudo apt -y install build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev \

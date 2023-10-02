@@ -12,6 +12,29 @@ The backup includes:
   - GPG: ~/.gnupg/
   - SSH: ~/.ssh/
 
+
+## Boot up a new device
+It's always nice to get a new device, and it's also painful to set up for it. Here's a semi-automated guide to get this job 
+done, reducing the pain to enjoy more fun:
+
+### Shared Pieces to Get Started
+- VPN
+- [Google Chrome - The Fast & Secure Web Browser Built to be Yours](https://www.google.com/chrome/)
+- [Tabby - a terminal for a modern age](https://tabby.sh/)
+- OS specific
+  - Ubuntu
+    - [Zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+  - macOS
+    - [Homebrew - The Missing Package Manager for macOS (or Linux)](https://brew.sh/)
+- [Oh My Zsh - a delightful & open source framework for Zsh](https://ohmyz.sh/)
+
+### Automated Setup
+execute `${OS}_install.sh` script to install software packages automatically.
+
+### Post Installation
+- check `${OS}_post_installation.md` docs to configure the device to work better.
+- copy each backup directory (based on README.md if available)
+
 ## Behind the Name
 
 This project is named after **Iron Fist Alexander** (AKA Alexander, Warrior Jar), an NPC in Elden Ring. 

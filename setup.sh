@@ -34,10 +34,6 @@ sudo apt update
 # install our packages
 sudo apt -y install default-jdk git maven nodejs npm python3 sbt scala ssh vim
 
-# install packages for Python build from source, which is needed for pyenv
-sudo apt -y install build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev llvm \
-libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev python-tk tk-dev
-
 # install docker engine
 sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 # post-installation steps for docker engine
@@ -50,3 +46,10 @@ sudo apt install -y kubectl
 # install minikube
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 sudo install minikube-linux-amd64 /usr/local/bin/minikube
+
+# pyenv requirements
+sudo apt -y install build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev \
+libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+
+# Jetbrains Toolbox requirements
+sudo apt install libfuse2

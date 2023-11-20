@@ -2,6 +2,7 @@
 set -e -x
 
 brew update
+brew instal telnet
 brew install docker kubectl
 brew install openjdk maven scala sbt nodejs npm
 

@@ -4,7 +4,9 @@ set -e -x
 brew update
 brew instal telnet
 brew install docker kubectl
-brew install openjdk maven scala sbt nodejs npm
+brew install openjdk openjdk@11 maven scala sbt nodejs npm
+
+sudo ln -sfn /opt/homebrew/opt/openjdk@11/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk
 
 # install pyenv
 brew install openssl readline sqlite3 xz zlib tcl-tk pyenv

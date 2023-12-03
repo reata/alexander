@@ -2,7 +2,7 @@
 ```shell
 export LANG=en_US
 xdg-user-dirs-gtk-update  # interactively update on GUI
-export zh_CN.UTF-8
+export LANG=zh_CN.UTF-8
 ```
 
 # install custom Python version via pyenv

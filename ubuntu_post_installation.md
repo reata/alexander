@@ -10,8 +10,3 @@ export LANG=zh_CN.UTF-8
 pyenv install 3.12.0 3.11.5 3.10.13 3.9.18 3.8.17
 pyenv global 3.12.0 3.11.5 3.10.13 3.9.18 3.8.17
 ```
-
-# switch JDK version
-```shell
-sudo update-alternatives --config java
-```

@@ -33,6 +33,8 @@ sudo apt update
 
 # install our packages
 sudo apt -y install default-jdk openjdk-11-jdk openjdk-8-jdk git maven nodejs npm python3 sbt scala ssh vim
+sudo update-java-alternatives -s java-1.11.0-openjdk-amd64
+echo 'export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64/"' >> ~/.zshrc
 
 # install docker engine
 sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin

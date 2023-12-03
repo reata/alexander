@@ -32,7 +32,7 @@ sudo sed -i "s@http://.*security.ubuntu.com@https://mirrors.tuna.tsinghua.edu.cn
 sudo apt update
 
 # install our packages
-sudo apt -y install default-jdk git maven nodejs npm python3 sbt scala ssh vim
+sudo apt -y install default-jdk openjdk-11-jdk openjdk-8-jdk git maven nodejs npm python3 sbt scala ssh vim
 
 # install docker engine
 sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin

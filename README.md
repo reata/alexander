@@ -24,7 +24,7 @@ done, reducing the pain to enjoy more fun:
 - OS specific
   - Ubuntu
     - [Zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
-    - [User Dirs](https://github.com/reata/alexander/blob/main/ubuntu_install.sh)
+    - [User Dirs](https://github.com/reata/alexander/blob/main/ubuntu_user_dirs.md)
   - macOS
     - [Homebrew - The Missing Package Manager for macOS (or Linux)](https://brew.sh/)
 - [Oh My Zsh - a delightful & open source framework for Zsh](https://ohmyz.sh/)

@@ -24,6 +24,7 @@ done, reducing the pain to enjoy more fun:
 - OS specific
   - Ubuntu
     - [Zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+    - [User Dirs](https://github.com/reata/alexander/blob/main/ubuntu_install.sh)
   - macOS
     - [Homebrew - The Missing Package Manager for macOS (or Linux)](https://brew.sh/)
 - [Oh My Zsh - a delightful & open source framework for Zsh](https://ohmyz.sh/)
@@ -32,7 +33,7 @@ done, reducing the pain to enjoy more fun:
 execute `${OS}_install.sh` script to install software packages automatically.
 
 ### Post Installation
-- check `${OS}_post_installation.md` docs to configure the device to work better.
+- check `post_installation.md` docs to configure some softwares.
 - copy each backup directory (based on README.md if available)
 
 ## Behind the Name

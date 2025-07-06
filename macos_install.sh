@@ -4,11 +4,11 @@ set -e -x
 brew update
 brew instal telnet
 brew install docker kubectl
-brew install openjdk openjdk@11 maven scala sbt nodejs npm
+brew install openjdk openjdk@11 maven scala sbt npm
 
 sudo ln -sfn /opt/homebrew/opt/openjdk@11/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk
 
-# install pyenv
+# install pyenv for Python version management
 brew install openssl readline sqlite3 xz zlib tcl-tk pyenv
 {
   # shellcheck disable=SC2016
@@ -18,3 +18,11 @@ brew install openssl readline sqlite3 xz zlib tcl-tk pyenv
   # shellcheck disable=SC2016
   echo 'eval "$(pyenv init -)"'
 } >> ~/.zshrc
+
+# install nvm for Node.js version management
+# Download and install nvm:
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+# in lieu of restarting the shell
+\. "$HOME/.nvm/nvm.sh"
+# Download and install Node.js:
+nvm install 20

@@ -32,7 +32,7 @@ sudo sed -i "s@http://.*security.ubuntu.com@https://mirrors.tuna.tsinghua.edu.cn
 sudo apt update
 
 # install common dev packages
-sudo apt -y install default-jdk openjdk-11-jdk openjdk-8-jdk git maven nodejs npm python3 sbt scala ssh vim
+sudo apt -y install default-jdk openjdk-11-jdk openjdk-8-jdk git maven npm python3 sbt scala ssh vim
 sudo update-java-alternatives -s java-1.11.0-openjdk-amd64
 echo 'export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64/"' >> ~/.zshrc
 
@@ -50,7 +50,7 @@ curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-
 sudo install minikube-linux-amd64 /usr/local/bin/minikube
 rm minikube-linux-amd64
 
-# install pyenv
+# install pyenv for Python version management
 sudo apt -y install build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev \
 libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
 curl https://pyenv.run | bash
@@ -62,6 +62,14 @@ curl https://pyenv.run | bash
   # shellcheck disable=SC2016
   echo 'eval "$(pyenv init -)"'
 } >> ~/.zshrc
+
+# install nvm for Node.js version management
+# Download and install nvm:
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+# in lieu of restarting the shell
+\. "$HOME/.nvm/nvm.sh"
+# Download and install Node.js:
+nvm install 20
 
 # database client
 sudo apt install sqlite3

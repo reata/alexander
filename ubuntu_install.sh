@@ -63,5 +63,8 @@ curl https://pyenv.run | bash
   echo 'eval "$(pyenv init -)"'
 } >> ~/.zshrc
 
+# database client
+sudo apt install sqlite3
+
 # Jetbrains Toolbox requirements
 sudo apt install libfuse2

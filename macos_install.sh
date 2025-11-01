@@ -26,3 +26,11 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 \. "$HOME/.nvm/nvm.sh"
 # Download and install Node.js:
 nvm install 20
+
+# install uv
+curl -LsSf https://astral.sh/uv/install.sh | sh
+# shellcheck source=/dev/null
+source ~/.local/bin/env
+# install common python tools to be managed by uv
+uv tool install pre-commit
+uv tool install tox

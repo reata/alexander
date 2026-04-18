@@ -21,16 +21,11 @@ done, reducing the pain to enjoy more fun:
 - VPN
 - [Google Chrome - The Fast & Secure Web Browser Built to be Yours](https://www.google.com/chrome/)
 - [Tabby - a terminal for a modern age](https://tabby.sh/)
-- OS specific
-  - Ubuntu
-    - [Zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
-    - [User Dirs](https://github.com/reata/alexander/blob/main/ubuntu_user_dirs.md)
-  - macOS
-    - [Homebrew - The Missing Package Manager for macOS (or Linux)](https://brew.sh/)
+- [Homebrew - The Missing Package Manager for macOS (or Linux)](https://brew.sh/) (note brew installs Xcode Command Line Tools)
 - [Oh My Zsh - a delightful & open source framework for Zsh](https://ohmyz.sh/)
 
 ### Automated Setup
-execute `${OS}_install.sh` script to install software packages automatically.
+execute `install.sh` script to install software packages automatically.
 
 ### Post Installation
 - check `post_installation.md` docs to configure some softwares.

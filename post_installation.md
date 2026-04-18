@@ -1,8 +1,8 @@
 # Common Pieces
 ## Install custom Python version via pyenv
 ```shell
-pyenv install 3.12.3 3.11.9 3.10.14 3.9.19 3.8.19
-pyenv global 3.12.3 3.11.9 3.10.14 3.9.19 3.8.19
+pyenv install 3.14 3.13 3.12 3.11 3.10
+pyenv global 3.14 3.13 3.12 3.11 3.10
 ```
 
 # MacOS Only

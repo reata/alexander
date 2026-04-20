@@ -28,7 +28,7 @@ done, reducing the pain to enjoy more fun:
 execute `install.sh` script to install software packages automatically.
 
 ### Post Installation
-- check `post_installation.md` docs to configure some softwares.
+- check `post_installation.md` docs to configure some pieces of software.
 - copy each backup directory (based on README.md if available)
 
 ## Behind the Name

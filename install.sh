@@ -10,14 +10,22 @@ sudo ln -sfn /opt/homebrew/opt/openjdk@11/libexec/openjdk.jdk /Library/Java/Java
 
 # install pyenv for Python version management
 brew install openssl readline sqlite3 xz zlib tcl-tk pyenv
-{
-  # shellcheck disable=SC2016
-  echo 'export PYENV_ROOT="$HOME/.pyenv"'
-  # shellcheck disable=SC2016
-  echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"'
-  # shellcheck disable=SC2016
-  echo 'eval "$(pyenv init -)"'
-} >> ~/.zshrc
+# configure pyenv in ~/.zshrc (idempotent)
+if ! grep -q 'PYENV_ROOT' ~/.zshrc; then
+  {
+    # shellcheck disable=SC2016
+    echo 'export PYENV_ROOT="$HOME/.pyenv"'
+    # shellcheck disable=SC2016
+    echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"'
+    # shellcheck disable=SC2016
+    echo 'eval "$(pyenv init -)"'
+  } >> ~/.zshrc
+fi
+# initialize pyenv in the current shell session
+export PYENV_ROOT="$HOME/.pyenv" && export PATH="$PYENV_ROOT/bin:$PATH" && eval "$(pyenv init -)"
+# install Python versions
+pyenv install 3.14 3.13 3.12 3.11 3.10
+pyenv global 3.14 3.13 3.12 3.11 3.10
 
 # install nvm for Node.js version management
 # Download and install nvm:

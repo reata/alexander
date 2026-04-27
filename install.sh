@@ -43,3 +43,4 @@ source ~/.local/bin/env
 # install common python tools to be managed by uv
 uv tool install pre-commit
 uv tool install tox
+uv tool install ruff

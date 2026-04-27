@@ -4,6 +4,7 @@ set -e -x
 brew update
 brew instal telnet
 brew install docker kubectl
+brew install gh
 brew install openjdk openjdk@11 maven scala sbt npm
 
 sudo ln -sfn /opt/homebrew/opt/openjdk@11/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk

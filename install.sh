@@ -2,7 +2,7 @@
 set -e -x
 
 brew update
-brew instal telnet
+brew install telnet htop pstree
 brew install docker kubectl
 brew install gh
 brew install openjdk openjdk@11 maven scala sbt npm

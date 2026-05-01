@@ -6,9 +6,23 @@ brew upgrade
 brew install telnet htop pstree
 brew install docker kubectl
 brew install gh
-brew install openjdk openjdk@11 maven scala sbt npm
 
-sudo ln -sfn /opt/homebrew/opt/openjdk@11/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk
+# install SDKMAN for Java version management
+curl -s "https://get.sdkman.io?ci=true" | bash
+# initialize SDKMAN in the current shell session
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+# install Java versions
+sdk install java 8.0.492-zulu
+sdk install java 11.0.31-zulu
+sdk install java 17.0.19-zulu
+sdk install java 21.0.11-zulu
+sdk install java 25.0.3-zulu
+sdk default java 8.0.492-zulu
+sdk install maven
+sdk install gradle
+# install Scala
+sdk install scala
+sdk install sbt
 
 # install pyenv for Python version management
 brew install openssl readline sqlite3 xz zlib tcl-tk pyenv

@@ -21,7 +21,9 @@ done, reducing the pain to enjoy more fun:
 - VPN
 - [Google Chrome - The Fast & Secure Web Browser Built to be Yours](https://www.google.com/chrome/)
 - [Tabby - a terminal for a modern age](https://tabby.sh/)
-- [Homebrew - The Missing Package Manager for macOS (or Linux)](https://brew.sh/) (note brew installs Xcode Command Line Tools)
+- [Homebrew - The Missing Package Manager for macOS (or Linux)](https://brew.sh/) 
+  - note brew installs Xcode Command Line Tools automatically
+  - some tool requires modern version of bash, `brew install bash` to upgrade
 - [Oh My Zsh - a delightful & open source framework for Zsh](https://ohmyz.sh/)
 
 ### Automated Setup

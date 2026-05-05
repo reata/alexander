@@ -18,7 +18,8 @@ It's always nice to get a new device, and it's also painful to set up for it. He
 done, reducing the pain to enjoy more fun:
 
 ### Shared Pieces to Get Started
-- VPN
+- VPN, preferably [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev) based solution which allows for 
+  proxy setup in terminal.
 - [Google Chrome - The Fast & Secure Web Browser Built to be Yours](https://www.google.com/chrome/)
 - [Tabby - a terminal for a modern age](https://tabby.sh/)
 - [Homebrew - The Missing Package Manager for macOS (or Linux)](https://brew.sh/) 

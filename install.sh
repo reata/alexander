@@ -49,10 +49,10 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 # in lieu of restarting the shell
 \. "$HOME/.nvm/nvm.sh"
 # Download and install Node.js:
-nvm install 20
 nvm install 22
 nvm install 24
-nvm alias default 20
+nvm install 26
+nvm alias default 22
 
 # install uv
 curl -LsSf https://astral.sh/uv/install.sh | sh

@@ -66,5 +66,5 @@ uv tool install ruff
 # AI agent
 # Claude Code
 curl -fsSL https://claude.ai/install.sh | bash
-# Gemini CLI
-npm install -g @google/gemini-cli
+# Antigravity CLI
+curl -fsSL https://antigravity.google/cli/install.sh | bash

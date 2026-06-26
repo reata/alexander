@@ -68,3 +68,6 @@ uv tool install ruff
 curl -fsSL https://claude.ai/install.sh | bash
 # Antigravity CLI
 curl -fsSL https://antigravity.google/cli/install.sh | bash
+
+# PDF rendering library
+brew install poppler

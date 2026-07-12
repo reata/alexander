@@ -71,3 +71,7 @@ curl -fsSL https://antigravity.google/cli/install.sh | bash
 
 # PDF rendering library
 brew install poppler
+
+# audio and video library
+brew install ffmpeg
+uv tool install gamdl

@@ -3,7 +3,7 @@ set -e -x
 
 brew update
 brew upgrade
-brew install telnet htop pstree
+brew install telnet htop pstree tree
 brew install docker kubectl
 brew install gh
 

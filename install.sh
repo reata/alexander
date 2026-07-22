@@ -75,3 +75,4 @@ brew install poppler
 # audio and video library
 brew install ffmpeg
 uv tool install gamdl
+uv tool install spotdl

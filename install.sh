@@ -6,6 +6,7 @@ brew upgrade
 brew install telnet htop pstree tree
 brew install docker kubectl
 brew install gh
+brew install protobuf
 
 # install SDKMAN for Java version management
 curl -s "https://get.sdkman.io?ci=true" | bash

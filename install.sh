@@ -54,6 +54,11 @@ nvm install 24
 nvm install 26
 nvm alias default 22
 
+# install rustup for Rust toolchain management
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+# initialize rustup in the current shell session
+source "$HOME/.cargo/env"
+
 # install uv
 curl -LsSf https://astral.sh/uv/install.sh | sh
 # shellcheck source=/dev/null

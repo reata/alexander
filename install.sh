@@ -21,6 +21,7 @@ sdk install java 25.0.3-zulu
 sdk default java 8.0.492-zulu
 sdk install maven
 sdk install gradle
+sdk install jbang
 # install Scala
 sdk install scala
 sdk install sbt

@@ -12,3 +12,5 @@
     ff = only
 [pager]
     branch = false
+[alias]
+    clone-proxy = !git clone -c core.sshCommand=\"ssh -o ProxyCommand=\\\"nc -X connect -x 127.0.0.1:7897 %h %p\\\"\"

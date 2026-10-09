@@ -73,8 +73,8 @@ uv tool install ruff
 # AI agent
 # Claude Code
 curl -fsSL https://claude.ai/install.sh | bash
-# Antigravity CLI
-curl -fsSL https://antigravity.google/cli/install.sh | bash
+# Copilot CLI
+npm install -g @github/copilot
 
 # PDF rendering library
 brew install poppler

@@ -83,3 +83,4 @@ brew install poppler
 brew install ffmpeg
 uv tool install gamdl
 uv tool install spotdl
+uv tool install yt-dlp

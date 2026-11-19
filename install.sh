@@ -42,8 +42,8 @@ fi
 # initialize pyenv in the current shell session
 export PYENV_ROOT="$HOME/.pyenv" && export PATH="$PYENV_ROOT/bin:$PATH" && eval "$(pyenv init -)"
 # install Python versions
-pyenv install --skip-existing 3.14 3.13 3.12 3.11 3.10
-pyenv global 3.14 3.13 3.12 3.11 3.10
+pyenv install --skip-existing 3.15 3.14 3.13 3.12 3.11
+pyenv global 3.15 3.14 3.13 3.12 3.11
 
 # install nvm for Node.js version management
 # Download and install nvm:

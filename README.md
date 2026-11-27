@@ -26,13 +26,14 @@ done, reducing the pain to enjoy more fun:
   - note brew installs Xcode Command Line Tools automatically
   - some tool requires modern version of bash, `brew install bash` to upgrade
 - [Oh My Zsh - a delightful & open source framework for Zsh](https://ohmyz.sh/)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/). The Docker Engine daemon cannot run natively on 
+  macOS because it uses Linux-specific kernel features. The `docker` binary installed from brew is only a Docker CLI 
+  client, and is basically useless without Docker Engine. The recommended way is to use Docker Desktop, which manages
+  [lightweight LinuxKit VM](https://www.docker.com/blog/the-magic-behind-the-scenes-of-docker-desktop) running Docker 
+  Engine. 
 
 ### Automated Setup
 execute `install.sh` script to install software packages automatically.
-
-### Post Installation
-- check `post_installation.md` docs to configure some pieces of software.
-- copy each backup directory (based on README.md if available)
 
 ## Behind the Name
 

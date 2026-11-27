@@ -54,7 +54,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 nvm install 22
 nvm install 24
 nvm install 26
-nvm alias default 22
+nvm alias default 24
 
 # install rustup for Rust toolchain management
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
